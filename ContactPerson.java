@@ -1,21 +1,22 @@
-public class ContactPerson
-{
-	String firstName;
-	String lastName;
-	String address;
-	String city;
-	String state;
-	long zip;
-	long phoneNumber;
+import java.util.Comparator;
 
-	public ContactPerson(String firstName,String lastName,String address,String city,String state,long zip,long phoneNumber)
-	{
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.address = address;
-		this.city = city;
-		this.state = state;
-		this.zip = zip;
-		this.phoneNumber = phoneNumber;
-	}
+public class ContactPerson {
+    private String firstName;
+    private String lastName;
+    private String address;
+    private String city;
+    private String state;
+    private long phoneNumber;
+    private long zip;
+
+    public ContactPerson(String firstName, String lastName, String address, String city, String state, long zip, long phoneNumber) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.phoneNumber = phoneNumber;
+        this.zip = zip;
+    }
+
 }
